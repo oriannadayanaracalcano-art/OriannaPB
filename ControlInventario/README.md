@@ -1,4 +1,4 @@
-  # Control de Inventario - TecnoPunto
+# Control de Inventario - TecnoPunto
 
 ## Información general
 
@@ -52,15 +52,15 @@ La aplicación permite:
 ControlInventario/
 │
 ├── Capturas/
-│   ├── Productos.jfif
-│   ├── Segunda.jfif
-│   ├── tercera.jfif
+│   ├── Productos.jfif (1).jpeg
+│   ├── Segunda.jfif (1).jpeg
+│   ├── tercera.jfif (2).jpeg
 │   ├── cuarta.jfif
-│   ├── Quinta.jfif
-│   └── Sexta.jfif
+│   ├── Quinta.jfif (1).jpeg
+│   └── Sexta.jfif (1).jpeg
 │
-├── Inventario.csproj
-├── Inventario.slnx
+├── ControlInventario1.csproj
+├── ControlInventario1.slnx
 ├── Program.cs
 └── README.md
 ```
@@ -118,19 +118,19 @@ Contiene el método `Main()`, que inicia la ejecución de la aplicación. Tambi�
 
 Se ingresa una cantidad igual a `0`. El programa acepta el dato, ya que solamente se rechazan las cantidades negativas.
 
-![Captura con cantidad cero](Capturas/Productos.jfif)
+![Captura con cantidad cero](Capturas/Productos.jfif%20%281%29.jpeg)
 
 ### 2. Cantidad negativa
 
 Se ingresa una cantidad negativa. El programa muestra el mensaje de error `ERROR: La cantidad no puede ser negativa.` y vuelve a solicitar los datos.
 
-![Captura con cantidad negativa](Capturas/Segunda.jfif)
+![Captura con cantidad negativa](Capturas/Segunda.jfif%20%281%29.jpeg)
 
 ### 3. Nombre vacío
 
 Se deja el nombre del producto en blanco. El programa muestra el mensaje `ERROR: El nombre no puede estar vacío.` y vuelve a solicitar los datos.
 
-![Captura con nombre vacío](Capturas/tercera.jfif)
+![Captura con nombre vacío](Capturas/tercera.jfif%20%282%29.jpeg)
 
 ### 4. Precio negativo
 
@@ -142,13 +142,13 @@ Se ingresa un precio negativo. El programa muestra el mensaje `ERROR: El precio 
 
 Se muestran los productos que fueron registrados correctamente durante la ejecución del programa.
 
-![Captura de productos registrados](Capturas/Quinta.jfif)
+![Captura de productos registrados](Capturas/Quinta.jfif%20%281%29.jpeg)
 
 ### 6. Registro de otro producto
 
 Se presenta otra evidencia del registro correcto de un producto en el inventario.
 
-![Captura de otro producto registrado](Capturas/Sexta.jfif)
+![Captura de otro producto registrado](Capturas/Sexta.jfif%20%281%29.jpeg)
 
 ## Requisitos para ejecutar el proyecto
 
@@ -157,7 +157,7 @@ Se presenta otra evidencia del registro correcto de un producto en el inventario
 
 ## ¿Cómo ejecutar el proyecto?
 
-1. Abrir el archivo `Inventario.slnx` en Visual Studio.
+1. Abrir el archivo `ControlInventario1.slnx` en Visual Studio.
 2. Esperar a que el proyecto cargue correctamente.
 3. Ejecutar la aplicación presionando `F5` o el botón de inicio.
 4. Seguir las instrucciones que aparecen en la consola para registrar los tres productos.
