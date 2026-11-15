@@ -118,7 +118,7 @@ Contiene el método `Main()`, que inicia la ejecución de la aplicación. Tambi�
 
 Se ingresa una cantidad igual a `0`. El programa acepta el dato, ya que solamente se rechazan las cantidades negativas.
 
-![Captura con cantidad cero](Capturas/Productos.jfif)
+![Captura de productos](Capturas/Productos.jfif%20(1).jpeg)
 
 ### 2. Cantidad negativa
 
